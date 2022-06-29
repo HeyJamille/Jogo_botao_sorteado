@@ -16,14 +16,14 @@
       entrada.innerHTML = "";
       jogo.innerHTML = "";
       resultado.innerHTML = "";
-      resultado1.innerHTML = "Parabéns, você encontrou o        botão sorteado!"+"<br>"+"O total de vezes clicados        foram: "+count+"&nbsp"+"vezes.";
+      resultado1.innerHTML = "Parabéns, você encontrou o botão sorteado!"+"<br>"+"O total de vezes clicados foram: "+count+"&nbsp"+"vezes.";
     }
     else{
       this.style.backgroundColor = "red";
       count = count + 1;
       count1 = count;
-      resultado.innerHTML = "<br>"+"Ops, você não               encontrou o botão sorteado, tente novamente."+"           ("+count1+")";
-      //alert("Ops, você não encontrou o botão sorteado,        tente novamente.");
+      resultado.innerHTML = "<br>"+"Ops, você não encontrou o botão sorteado, tente novamente."+"("+count1+")";
+      //alert("Ops, você não encontrou o botão sorteado, tente novamente.");
       botao.disabled = true;
     } 
   });
